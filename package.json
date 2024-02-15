@@ -1,0 +1,46 @@
+{
+  "name": "shikiji-themes",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.15.1",
+  "description": "Collecton of TextMate grammars in JSON",
+  "author": "Hung <giahung197bg@gmail.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/antfu",
+  "homepage": "https://github.com/hunghg255/shikiji-themes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunghg255/shikiji-themes.git",
+    "directory": "packages/shikiji-themes"
+  },
+  "bugs": "https://github.com/hunghg255/shikiji-themes/issues",
+  "keywords": [
+    "textmate"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./themes/*": "./themes/*"
+  },
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./*",
+        "./index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "*.d.ts",
+    "*.js",
+    "LICENSE",
+    "NOTICE",
+    "themes"
+  ]
+}
