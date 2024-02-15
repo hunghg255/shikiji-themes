@@ -1,4 +1,4 @@
-{
+export default {
   "name": "lucy",
   "type": "dark",
   "colors": {

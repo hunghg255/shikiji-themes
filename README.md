@@ -7,7 +7,7 @@ Collection of TextMate themes, converted in JSON format and re-distributed as a 
 ## Usage
 
 ```ts
-import darkPlus from 'shikiji-themes/themes/dark-plus.json'
+import lucy from 'shikiji-themes/themes/lucy.js'
 ```
 
 ### Metadata
